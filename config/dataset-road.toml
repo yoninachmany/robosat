@@ -6,10 +6,10 @@
 [common]
 
   # The slippy map dataset's base directory.
-  dataset = '/tmp/slippy-map-dir/'
+  dataset = 'spacenet/'
 
   # Human representation for classes.
-  classes = ['background', 'parking']
+  classes = ['background', 'road']
 
   # Color map for visualization and representing classes in masks.
   # Note: available colors can be found in `robosat/colors.py`
