@@ -20,4 +20,4 @@
 # Needed by 'mIoU' and 'CrossEntropy' losses to deal with unbalanced classes.
 # Note: use `./rs weights -h` to compute these for new datasets.
 [weights]
-  values = [1.473292, 15.075084]
+  values = [1.508207, 10.560705]
