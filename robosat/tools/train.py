@@ -248,7 +248,7 @@ def get_dataset_loaders(model, dataset, workers):
     batch_size = model["common"]["batch_size"]
     path = dataset["common"]["dataset"]
 
-    mean, std = [0.485, 0.456, 0.406], [0.229, 0.224, 0.225]
+    mean, std = [0.392, 0.364, 0.369], [0.301, 0.310, 0.319]
 
     transform = JointCompose(
         [
